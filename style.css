@@ -1,0 +1,229 @@
+body{
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0;
+    background-color: #241f1f;
+
+}
+p{
+  font-size: 1.5rem;
+}
+
+body::-webkit-scrollbar {
+    width: 0.25rem;
+  }
+  
+body::-webkit-scrollbar-track {
+    background: #1e1e24;
+  }
+  
+body::-webkit-scrollbar-thumb {
+    background: #6649b8;
+  }
+h1{
+    font-size: 6rem;
+}
+.nh{
+    color: rgb(158, 88, 158);
+}
+h3{
+    font-size: 3rem;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-top: 1.5rem;
+    margin-left: 5%;
+    padding: 2%;
+}
+.half-width img{
+    width: 100%;
+}
+.top-banner{
+    background-image: url(image/img1.png);
+    height: 50rem;
+    background-repeat: no-repeat;
+}
+.gh{
+    color: rgb(255, 255, 255);
+}
+.game{
+    background-image: url(image/dream-bg.png);
+    height: 70rem;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.single{
+    box-shadow: 0rem .8rem 1.6rem .5rem rgba(65, 65, 65, 0.281);
+    border-radius: .7rem;
+    height: 100%;
+    background-color: #ffffff;
+    
+}
+.single:hover{
+  box-shadow: .5rem 1rem 1.9rem .8rem rgba(248, 248, 248, 0.281);
+  border-radius: .7rem;
+  height: 100%;
+  background-color: #ececec;
+  
+}
+
+.last-section{
+    background-image: url(image/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    margin-bottom: 2.0rem;
+    height: 55rem;
+    background-color: #241f1f;
+    text-align: center;
+}
+
+#first{
+    border-bottom: .7rem solid rgb(72, 15, 228);
+}
+#second{
+    border-bottom: .7rem solid rgb(12, 175, 94);
+}
+footer{
+    text-align: center;
+    margin-top: 25rem;
+    color: white;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.dropbtn {
+    background-image: linear-gradient(45deg, rgb(83, 83, 201),rgb(83, 33, 175));
+    color: white;
+    padding: 1.2rem 2.0rem;
+    font-size: 1.4rem;
+    border: none;
+    cursor: pointer;
+    border-radius: .7rem;
+    font-weight: bold;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 16rem;
+    box-shadow: 0rem .8rem 1.6rem .5rem rgba(111, 114, 129, 0.281);
+    z-index: 1;
+    border-radius: .7rem;
+    margin-top: .1rem;
+  }
+  .dropdown-content a {
+    color: black;
+    padding: 1.2rem 1.6rem;
+    text-decoration: none;
+    display: block;
+    border-radius: .7rem;
+  }
+  .dropdown-content a:hover {background-color: rgb(102, 189, 216)}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+    
+  }
+  .dropdown:hover .dropbtn {
+    background-color: #c42b89;
+  }
+
+
+
+
+
+  .gamerbtn {
+    background-image: linear-gradient(45deg, rgb(158, 88, 158),  rgb(83, 83, 201));
+    color: rgb(255, 255, 255);
+    padding: 1.2rem 2.0rem;
+    font-size: 1.4rem;
+    border: none;
+    cursor: pointer;
+    border-radius: .7rem;
+    font-weight: bold;
+  }
+  
+  .gamer {
+    position: relative;
+    display: inline-block;
+    
+  }
+  .gamer-content {
+    display: none;
+    position: absolute;
+    background-color: #4e4a4a;
+    min-width: 20rem;
+    box-shadow: 0rem .8rem 1.6rem .5rem rgba(65, 65, 65, 0.281);
+    z-index: 1;
+    border-radius: .7rem;
+    margin-top: .1rem;
+  }
+
+  .gamer-content a {
+    color: rgb(255, 255, 255);
+    padding: 1.2rem 1.6rem;
+    text-decoration: none;
+    display: block;
+    border-radius: .7rem;
+  }
+  
+  .gamer-content a:hover {background-color: #25cf88}
+
+  .gamer:hover .gamer-content {
+    display: block;
+  }
+
+  .gamer:hover .dropbtn {
+    background-color: #290a1d;
+  }
+
+
+
+html{
+  font-size: 62.5%;
+}
+
+
+
+
+
+
+
+
+
+  @media(max-width:998px){
+    html{
+      font-size:55%;
+    }
+  }
+
+  @media(max-width:768px){
+    html{
+      font-size: 45%;
+    }
+  }
